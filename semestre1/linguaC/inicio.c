@@ -1,13 +1,15 @@
 
-
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 
-int main()
-{
-    int v1=10;
+int main(void) {
 
-    printf("ola v1 é igual a %d", v1);
+  float temperatura;
 
-    return 0;
+  printf("Digite uma temperatura em graus Celcius:");
+  scanf("%f", &temperatura);
+  float tempFormat=(temperatura*9/5)+32;
+  printf(" A temperatura em fahrenheit:%.2f", tempFormat);
+
+  return 0;
 }
