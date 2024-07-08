@@ -166,7 +166,7 @@ p{
 }
 .blocofoto{
     width: 100%;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .icones{
@@ -179,4 +179,47 @@ gap: 10%;
 
 .icone{
     width: 10vw;
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+    .inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    }
+
+    .pintura{
+        height: 100%;
+        object-fit: cover;
+        border-radius:20px 0px 0px 20px;
+        max-width: 35vh;
+    }
+
+    .texto-inicio{
+        border-radius: 0px 20px 20px 0px;
+    }
+    .foto{margin: auto;}
+    .alinhar{
+        display: flex;
+        margin-inline: 20vw;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    .blocofoto{
+        width: 35%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .fundobranco{
+        display: flex;
+    }
+    .fundobranco>p{
+        margin: auto;
+    }
+    .tit{
+        margin-top: 5%;
+    }
+.icones>a>img{
+    width: 5vw;
+}
 }
