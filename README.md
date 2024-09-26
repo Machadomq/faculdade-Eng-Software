@@ -1,3 +1,3 @@
 # faculdade
  
-#Algumas atividades realizadas durante o curso de engenharia de software
+Algumas atividades realizadas durante o curso de engenharia de software
